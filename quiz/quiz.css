@@ -1,0 +1,147 @@
+/* Body style */
+body {
+  animation: fadeIn 2s ease-in-out;
+  background: linear-gradient(to right, #9ba9c4, #f0a3ec);
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Navbar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: rgb(202, 188, 188);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+/* Navbar menu items */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar links */
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  padding: 14px 20px;
+  display: block;
+  white-space: nowrap;  /* Prevents breaking into new line */
+}
+
+.navbar ul li a:hover {
+  background-color: #575757;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Main layout wrapper */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+
+
+/* Quiz box */
+.quiz-container {
+  text-align: center;
+  background: #7aa5b3;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 400px;
+}
+
+/* Option buttons */
+#choices button {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  background-color: hsl(320, 33%, 98%);
+  color: #100f0f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#choices button:hover {
+  background-color: hwb(180 100% 0%);
+}
+
+/* Hide utility */
+.hide {
+  display: none;
+}
+
+/* Navigation buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+#back-btn {
+  background-color: #3e3d3e;
+  color: #f5f2f5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#next-btn {
+  background-color: #575757;
+  color: rgb(250, 247, 250);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Progress Text */
+.progress-text {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1em;
+  color: #444;
+}
+
+/* App heading */
+.qiz-application {
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+}
