@@ -1,0 +1,86 @@
+.button{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #02585b; /* Green */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 750px;
+  margin-left: 50px;
+}
+body {
+  animation: fadeIn 2s ease-in-out;
+  background: linear-gradient(to right, #9ba9c4, #f0a3ec);
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.quiz-container {
+    text-align: center;
+    background: #7aa5b3;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    height:50vh;
+}
+#choices button {
+text-align: center;
+ display: block;
+    margin: 0.5rem 0;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
+    background-color: hsl(320, 33%, 98%);
+    color: #100f0f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#choices button:hover {
+    background-color: hwb(180 100% 0%);
+}
+
+.hide {
+    display: none;
+}
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+#back-btn {
+  background-color: #3e3d3e;  /* Red */
+  color: #f5f2f5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#next-btn {
+  background-color: #575757;  /* Green */
+  color: rgb(250, 247, 250);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
